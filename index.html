@@ -75,6 +75,7 @@
                 <button type="submit">Send</button>
             </form>   
             <p id="responseMessage"></p>
+            
             <!--Social media link-->
             <div class="social-media">
                 <a href="#" target="_blank" rel="noopener noreferrer">
@@ -106,8 +107,7 @@
     </section>
     <script>
         const form = document.getElementById("contactForm");
-        form.addEventListener('submit', async function (e)
-                              {
+        form.addEventListener("submit", async function (e){                             {
             e.preventDefault(); // Stop the default form submission
             const formData = new FormData(form);
          
