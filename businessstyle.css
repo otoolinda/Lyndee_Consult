@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 header {
-    background: url('backgrd1_update.jpg');
+    background-color: #f4f4f4;
     color: white;
     background-size: cover;
     background-position: center;
