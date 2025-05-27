@@ -59,6 +59,9 @@ footer {
 #services{
     background: url('backgrd1_update.jpg');
 }
+#services Ii{
+    font-size: 28px;
+}
 
 .projects-grid {
     display: grid;
