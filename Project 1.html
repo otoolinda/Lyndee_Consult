@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyndee's Engineering Consult</title>
+    <link rel="stylesheet" href="businessstyle.css">
+        <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+     <style>
+        #project-details{
+        background-color: #e8eae8;
+        color: rgb(10, 8, 8);
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+        min-height: 200px;        
+        }        
+        #project-details img{
+            width: 800px;
+            border-radius: 50px;      
+            min-height: 150px;      
+        }
+        #project-details p{
+        text-align: center;           
+        }
+        #Download button{
+        background-color: #ec4343;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;                        
+        }
+        #Download button:hover{
+            background-color: rgb(42, 131, 63);
+        }
+        #Home{
+        background-color: azure;
+        }
+        #Home button{
+        background-color: rgb(90, 213, 213);
+        }
+        #Home button:hover{
+        background-color: rgb(203, 150, 18);
+        }
+     </style>    
+</head>
+<body>
+
+    <header>
+        <h1>Project Title</h1>
+    </header>
+
+    <section id="project-details">
+        <div class="container">  
+            <!--img src="images/Schematic-diagram-of-the-DC-motor.png" alt="Project 1 Image"-->
+            <p><strong>Abstract</strong> </p> 
+            <p> This project involves designing and analyzing the
+                controls of a DC motor supplied by an inverter with specific
+                ratings. The dynamic response of different inputs to the system
+                is simulated and analyzed in Simulink. The open loop response of
+                the plant is equally discussed in this report. The cascade control
+                architecture is implemented to regulate the speed of the DC motor
+                with an inner current regulator.</p> 
+        </div>      
+    </section>
+    <!--section id="Download">
+        <h3>Download the project details here</h3>
+        <p>Click the button to download project report.</p>
+        <a href="pdfs/DC Motor Design and Control.pdf" target="_blank" rel="noopener noreferrer">
+            <button>PDF</button>
+        </a>
+    </section-->
+    <section id="Home">
+        <a href="businesswebsite.html"> 
+            <button><--Back to Home</button>
+        </a>
+    </section>
+</body>
+</html>

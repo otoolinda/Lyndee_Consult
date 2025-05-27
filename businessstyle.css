@@ -1,0 +1,263 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background: url('backgrd1_update.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 80px; 
+    text-align: center;  
+}
+header h1{
+    color: #010101;
+    text-align: center;
+    text-decoration: 0;
+ }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(3, 1, 1);
+    padding:10px 15px;
+    text-decoration: none;    
+}
+.no-bullets {
+    list-style-type: none;
+}
+section {
+    padding: 10px;    
+}
+#about{
+    background-color: #f2f0f0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#projects {
+    background-color: #08961b;
+    padding: 50px 0;
+    background: url('backgrd1_update.jpg');
+}
+#services{
+    background: url('backgrd1_update.jpg');
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    color: #005f73;
+    margin-top: 10px;
+}
+
+#contact {
+    background-color: #b1a9a9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #0b0f10;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #382020;
+    margin-bottom: 15px;
+}
+
+/* Contact Form 
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-form input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 100px;
+}
+
+#contact-form button {
+    background-color: #b9e1be;
+    color: rgb(3, 2, 2);
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;    
+}
+
+#contact-form button:hover {
+    background-color: #21e016;
+}
+*/
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #e4f1e5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial,  sans-serif;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    margin: 10px 0;
+}
+
+form textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    min-height: 120px;
+    margin: 10px 0;
+    resize: vertical;
+}
+
+form button{
+    background-color: #242519;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+form button:hover{
+    background-color: #0056b3;
+    transition: 0.3s;
+}
+/* Social Media Icons */
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media a {
+    display: inline-block;
+    font-size: 30px;
+    color: #f52424;
+    transition: color 0.3s ease;
+}
+.social-media a:hover {
+    color: #5eee16;
+}
+.contact-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-email i {
+    font-size: 25px;
+    color: #d81d1d;
+    margin-right: 10px;
+}
+
+.contact-email a {
+    text-decoration: none;
+    color: #005f73;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-email a:hover {
+    color: #008C7D;
+}
+.contact-call {
+    display: flex;    
+    justify-content: center;
+    margin-top: 15px;      
+}
+.call-button{
+    background-color: #050c0d;
+    color: white;
+    padding: 5px 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.3s;
+}
+.call-button i {
+    font-size: 25px;
+}
+.contact-phone a {
+    text-decoration: none;
+    color: #070909;
+    font-weight: lighter;
+    transition: color 0.3s;
+}
+
+.contact-call a:hover {
+    color: #e47b0a;
+}
