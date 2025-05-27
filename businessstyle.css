@@ -19,6 +19,11 @@ header h1{
     text-align: center;
     text-decoration: 0;
  }
+header img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
 
 nav ul {
     list-style: none;
