@@ -74,7 +74,7 @@
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>   
-            
+            <p id="responseMessage"></p>
             <!--Social media link-->
             <div class="social-media">
                 <a href="#" target="_blank" rel="noopener noreferrer">
@@ -105,15 +105,15 @@
         </div>
     </section>
     <script>
-        const form = document.getElementById('contactForm');
-        form.addEventListener('submit', asyn function(e)
+        const form = document.getElementById("contactForm");
+        form.addEventListener('submit', async function (e)
                               {
             e.preventDefault(); // Stop the default form submission
             const formData = new FormData(form);
          
             try {
               const response = await fetch(form.action, {
-                  method: form.method,
+                  method: "POST",
                   body: formData,
                   headers: {
                       'Accept': 'application/json'
